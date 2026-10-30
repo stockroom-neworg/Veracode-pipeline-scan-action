@@ -96402,7 +96402,7 @@ function checkParameters(parameters) {
                 core.info('Region: EU');
             }
             else {
-                var apiUrl = 'api.veracode.com';
+                var apiUrl = 'api-agora-stage-103.stage.veracode.io';
                 var cleanedID = parameters.vid;
                 var cleanedKEY = parameters.vkey;
                 core.info('Region: US');
